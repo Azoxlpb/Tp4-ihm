@@ -5,6 +5,7 @@ body{
 .img-fond{
     background-image: url(../img/train.png);
     background-position:30% 42%;
+    width:100%;
 }
 
 
@@ -81,6 +82,7 @@ section#login-button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width:100%;
 }
 h1{
     color: white;
