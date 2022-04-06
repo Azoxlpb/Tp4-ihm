@@ -21,10 +21,34 @@ header{
     height: auto;
 }
 
-#first-filtre{
-    height: 30px;
-    width: 125px;
+section.filtres {
+    width: 40%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+section.allfiltre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.2em;
+    width: 100%;
+}
+
+
+.top-button {
+    background-color: #0a0a23; 
+    border: none;
+    color: white;
+    padding: 10px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px 5px 5px 5px;
+  }
 
 /* footer */
 footer{
