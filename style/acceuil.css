@@ -12,6 +12,7 @@ header{
     background-color: #FF2459;
     padding: 0;
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -24,9 +25,8 @@ header{
 section#sec-nav {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 60%;
     background-color:  #333;
-    margin-left: 600px;
 }
 nav a{
     text-decoration: none;
@@ -43,7 +43,7 @@ nav a{
 }
 
 .navbar{
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -62,10 +62,14 @@ section .monBoutton {
     display: flex;
     align-items: center;
     height: 35px;
-    margin-top: 12px;
-    margin-left: 35px;
   }
 
+section#login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
 
 .active {
     background-color: #4CAF50;

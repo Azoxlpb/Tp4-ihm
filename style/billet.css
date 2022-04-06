@@ -15,3 +15,55 @@ header{
     max-width: 75px;
     max-height: 100px;
 }
+
+/* main */
+.main{
+    height: auto;
+}
+
+#first-filtre{
+    height: 30px;
+    width: 125px;
+}
+
+/* footer */
+footer{
+	background-color :#333;
+	display: flex;
+	justify-content: center;
+}
+
+footer *{
+	color: #ebf7f3
+}
+
+.hr{
+	border: 1px solid #87d0bc ;
+}
+
+footer>section{
+	width: 80%;
+}
+
+.lien section {
+    flex-direction: column;
+    display: flex;
+}
+section.lien {
+    display: flex;
+	width: 90%;
+    justify-content: space-between;
+}
+.av-lien{
+	display: flex;
+	justify-content: center;
+}
+
+section.lien a {
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+button{
+	cursor: pointer;
+}
