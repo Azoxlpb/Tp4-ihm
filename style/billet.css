@@ -2,11 +2,11 @@ body{
     margin:0;
     width :100%;
 }
-
 header{
     background-color: #FF2459;
-    padding: 0;
+    margin: 0;
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -33,7 +33,7 @@ section.allfiltre {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1.2em;
+    margin: 1.2em 0;
     width: 100%;
 }
 
@@ -49,6 +49,21 @@ section.allfiltre {
     font-size: 16px;
     border-radius: 5px 5px 5px 5px;
   }
+
+/* input  */
+
+  .form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    display: flex;
+  }
+  
 
 /* footer */
 footer{

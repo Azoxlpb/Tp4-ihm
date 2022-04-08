@@ -5,6 +5,7 @@
     <meta content="text/html" ; charset="utf-8" http-equiv="content-type">
     <title>Prise de billet</title>
     <link rel="stylesheet" type="text/css" href="style/billet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
@@ -21,11 +22,21 @@
                 <button class="top-button"> filtre </button>
             </section>
         </section>
-        <section id="input">
-            <input type="text" id="search">
-        </section>
+       
+        <form>
+            <input type="text" list="search" class="form__input" id="name" placeholder="Lieu" required="" />
+            <datalist id="search">
+
+            </datalist>
+        </form>
+
         <article>
             <img src="img/logo-train.png" id="logo-train">
+            <span> Aix-en-provence TGV </span>
+            <span> 12h30</span>
+            <span>  Valence TGV</span>
+            <span> 13h25</span>
+            <prix> 23€</prix>
         </article>
         <article>
             <img src="img/logo-train.png" id="logo-train">
