@@ -18,7 +18,17 @@ header{
 
 /* main */
 .main{
-    height: auto;
+    height: 100vh;
+    background-image: url(../img/fond-train.jpg);
+    margin-bottom: -50px ;
+}
+
+
+section.all-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
 }
 
 section.filtres {
@@ -33,7 +43,7 @@ section.allfiltre {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1.2em 0;
+    padding: 1.2em 0;
     width: 100%;
 }
 
@@ -63,9 +73,75 @@ section.allfiltre {
     width: 70%;
     display: flex;
   }
-  
+
+.train-button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article{
+    font-size: 16px;
+    border-radius: 80px;
+    font-size: 1.2rem;
+    background-color: #0a0a23; 
+    border: none;
+    color: white;
+    padding: 10px 54px;
+    width : 40%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+article:first-of-type{
+    margin-top: 20px;
+}
+article img{
+    width : 100px;
+    height: 70px;
+}
+.depart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrivee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-button{
+    border-radius: 15px;
+    background-color: #0a0a23;
+    color: white;
+    border : none;
+    margin-bottom: 10px;
+    padding: 10px 90px;
+    margin-top: 10px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reserver{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: darkmagenta;
+    border: 0;
+    margin-top: 5px;
+}
 
 /* footer */
+/*
 footer{
 	background-color :#333;
 	display: flex;
@@ -102,7 +178,10 @@ section.lien a {
     margin-bottom: 7px;
     text-decoration: none;
 }
-
+*/
+footer{
+    display: none;
+}
 button{
 	cursor: pointer;
 }
