@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    width :100%;
+}
+header{
+    background-color: #FF2459;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#logo{
+    max-width: 75px;
+    max-height: 100px;
+}
+
+#menu {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px ;
+}
+
+/* main */
+
+#main{
+    height: 100vh;
+}
+
+span:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#carte{
+    background-color: aqua;
+    border-radius: 80px;
+    height: 50%;
+    margin-top: 20px;
+    
+}
+
+.moyen-payement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#carte img{
+    height: 50px;
+    width : 80px;
+}
