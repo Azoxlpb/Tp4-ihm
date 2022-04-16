@@ -25,10 +25,36 @@
             </section>
 
             <form>
-                <input type="text" list="search" class="form__input" id="name" placeholder="Lieu" required="" />
-                <datalist id="search">
+                <section id="ville" class="all-input">
+                    <label>Gare Départ </label>
+                    <input type="text" list="search_depart" class="form__input" id="dep" placeholder="Valence"
+                        required="" />
+                    <datalist id="search_depart">
 
-                </datalist>
+                    </datalist>
+                    <label>Gare Arrivée </label>
+                    <input type="text" list="search_arrivee" class="form__input" id="arr" placeholder="Lyon"
+                        required="" />
+                    <datalist id="search_arrivee">
+
+                    </datalist>
+                </section>
+                <section id="date" class="all-input">
+                    <label>Date départ </label>
+
+                    <input type="date" list="search_date_dep" class="form__input" id="datedep" placeholder="date départ"
+                        required="" />
+                    <datalist id="search_date_dep">
+
+
+                    </datalist>
+                    <label>Date arrivée </label>
+                    <input type="date" list="search_date_arr" class="form__input" id="datearr"
+                         required="" />
+                    <datalist id="search_date_arr">
+
+                    </datalist>
+                </section>
             </form>
             <section class="train-button">
                 <article>
