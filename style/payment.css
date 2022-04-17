@@ -38,13 +38,31 @@ span:first-of-type{
 }
 
 #carte{
-    background-color: aqua;
-    border-radius: 80px;
+    
+    background: #c859ff;
+    background: -moz-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #c859ff), color-stop(100%, #ffab8c));
+    background: -webkit-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: -o-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: -ms-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c859ff', endColorstr='#ffab8c', GradientType=1 );
     height: 50%;
     margin-top: 20px;
     
 }
 
+#cartevir{
+    background: #c859ff;
+    background: -moz-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #c859ff), color-stop(100%, #ffab8c));
+    background: -webkit-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: -o-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: -ms-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    background: linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c859ff', endColorstr='#ffab8c', GradientType=1 );
+    height: 50%;
+}
 .moyen-payement{
     display: flex;
     flex-direction: column;
