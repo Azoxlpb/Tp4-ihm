@@ -63,6 +63,7 @@ span:first-of-type{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c859ff', endColorstr='#ffab8c', GradientType=1 );
     height: 50%;
 }
+
 .moyen-payement{
     display: flex;
     flex-direction: column;
