@@ -30,47 +30,46 @@ header{
     height: 100vh;
 }
 
-span:first-of-type{
+
+/* dégradé zone */
+#carte{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    height: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-#carte{
-    
-    background: #c859ff;
-    background: -moz-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #c859ff), color-stop(100%, #ffab8c));
-    background: -webkit-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: -o-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: -ms-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c859ff', endColorstr='#ffab8c', GradientType=1 );
-    height: 50%;
-    margin-top: 20px;
-    
+    flex-direction: column;
 }
 
 #cartevir{
-    background: #c859ff;
-    background: -moz-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #c859ff), color-stop(100%, #ffab8c));
-    background: -webkit-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: -o-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: -ms-linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    background: linear-gradient(45deg, #c859ff 0%, #ffab8c 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c859ff', endColorstr='#ffab8c', GradientType=1 );
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.moyen-payement{
+.span-block{
+    margin-bottom: 25px;
+}
+
+.commonpay{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
+
+.espace{
+    margin-bottom: 5px;
+}
+
+/* taille img */
 #carte img{
     height: 50px;
+    width : 80px;
+}
+
+#cartevir img{
+    height: 65px;
     width : 80px;
 }

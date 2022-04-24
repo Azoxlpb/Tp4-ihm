@@ -14,6 +14,6 @@ Billet :       HTML   ?%
                CSS    ?%
                JS     0%
                
-Payement :        HTML   ?%
+Payement :     HTML   ?%
                CSS    ?%
                JS     0%
