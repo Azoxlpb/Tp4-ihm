@@ -34,7 +34,7 @@ header{
 /* dégradé zone */
 #carte{
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    height: 50%;
+    height: 45%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -42,14 +42,16 @@ header{
 
 #cartevir{
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    height: 50%;
+    height: 45%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .span-block{
+    margin-top: 5px;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 
 .commonpay{
@@ -72,4 +74,48 @@ header{
 #cartevir img{
     height: 65px;
     width : 80px;
+}
+
+
+
+/* footer */
+footer{
+	background-color :#333;
+	display: flex;
+	justify-content: center;
+}
+
+footer *{
+	color: #ebf7f3
+}
+
+.hr{
+	border: 1px solid #87d0bc ;
+}
+
+footer>section{
+	width: 80%;
+}
+
+.lien section {
+    flex-direction: column;
+    display: flex;
+}
+section.lien {
+    display: flex;
+	width: 90%;
+    justify-content: space-between;
+}
+.av-lien{
+	display: flex;
+	justify-content: center;
+}
+
+section.lien a {
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+button{
+	cursor: pointer;
 }
