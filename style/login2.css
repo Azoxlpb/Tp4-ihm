@@ -1,31 +1,13 @@
+
 body{
     margin:0;
     width :100%;
-}
-main {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-}
-section#sec-nav {
-    display: flex;
-    justify-content:flex-end;
-    width: 60%;
-    background-color: #333;
-    
-}
-
-.main{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 header{
     background-color: #FF2459;
     padding: 0;
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -35,6 +17,12 @@ header{
     max-height: 100px;
 }
 
+section#sec-nav {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color:  #333;
+}
 nav a{
     text-decoration: none;
     color : white;
@@ -50,10 +38,10 @@ nav a{
 }
 
 .navbar{
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 
@@ -62,24 +50,28 @@ section .monBoutton {
     Color:black;
     font-weight: bold;
     padding: 10px 60px;
-    border-radius: 30px;
+    border-radius: 130px;
     cursor: pointer; 
     box-shadow: 0 8px 16px 0 grey;
     text-decoration: none;
     display: flex;
     align-items: center;
     height: 35px;
-    margin-top: 12px;
-    margin-left: 35px;
   }
 
+section#login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
 
 .active {
     background-color: #4CAF50;
 }
 
 /*main*/
-div1 {
+form>section {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -134,7 +126,7 @@ nav a{
     height: 100%;
 }
 
-aside{
+#page{
     width: 100%;
     flex-basis: 15px;	
     display: flex;
@@ -149,24 +141,16 @@ form{
     flex-basis: 85%;
 }
 
-aside form{
+#page form{
     width: 100%;
 }
 
-aside form section{
+#page form section{
     display: flex;
     justify-content: space-between;
 }
 
-.apres-aside{
-    width: 70%;
-}
 
-div {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
 .tonBoutton:last-of-type {
     background-color: #ff3b3b;
     Color:white;
