@@ -49,6 +49,10 @@ section.filtres {
     align-items: center;
     justify-content: space-around;
 }
+.filtres>input {
+    height: 18px;
+    width: 80px;
+}
 
 section.allfiltre {
     display: flex;
@@ -56,6 +60,7 @@ section.allfiltre {
     justify-content: space-evenly;
     padding: 1.2em 0;
     width: 100%;
+    margin-top: 20px;
 }
 
 input[type=text]:focus {
@@ -79,6 +84,7 @@ input[type=text]:focus {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-right: 5px;
     border-radius: 5px 5px 5px 5px;
   }
 
@@ -129,12 +135,13 @@ article{
     border: none;
     color: white;
     padding: 10px 54px;
-    width : 40%;
+    width : 50%;
+    height: 80px;
     display : flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 article:first-of-type{

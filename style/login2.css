@@ -1,0 +1,225 @@
+body{
+    margin:0;
+    width :100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+section#sec-nav {
+    display: flex;
+    justify-content:flex-end;
+    width: 60%;
+    background-color: #333;
+    
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    background-color: #FF2459;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    max-width: 75px;
+    max-height: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    color : white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+.navbar a:hover{
+    background-color : #111;
+    height: 100%;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+section .monBoutton {
+    background-color: rgb(248, 245, 245);
+    Color:black;
+    font-weight: bold;
+    padding: 10px 60px;
+    border-radius: 30px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 35px;
+  }
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+/*main*/
+div1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+#logo {
+    max-width: 75px;
+    max-height: 100px;
+}
+input{margin-bottom: 30px;}
+
+#main>section {
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 12px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body{
+    margin:0;
+    width :100%;
+}
+header {
+    background-color: #FF2459;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color : white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a:hover{
+    background-color : #111;
+    height: 100%;
+}
+
+aside{
+    width: 100%;
+    flex-basis: 15px;	
+    display: flex;
+    justify-content: center;
+	flex-direction:column;
+    
+}
+form{
+    background-color: beige;}
+
+.avant-aside section{
+    flex-basis: 85%;
+}
+
+aside form{
+    width: 100%;
+}
+
+aside form section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apres-aside{
+    width: 70%;
+}
+
+div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tonBoutton:last-of-type {
+    background-color: #ff3b3b;
+    Color:white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 30px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+  }
+
+
+
+
+
+  /* footer */
+footer{
+	background-color :#333;
+	display: flex;
+	justify-content: center;
+}
+
+footer *{
+	color: #ebf7f3
+}
+
+.hr{
+	border: 1px solid #87d0bc ;
+}
+
+footer>section{
+	width: 80%;
+}
+
+.lien section {
+    flex-direction: column;
+    display: flex;
+}
+section.lien {
+    display: flex;
+	width: 90%;
+    justify-content: space-between;
+}
+.av-lien{
+	display: flex;
+	justify-content: center;
+}
+
+section.lien a {
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+button{
+	cursor: pointer;
+}
