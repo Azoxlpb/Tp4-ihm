@@ -10,8 +10,19 @@
 
 <body>
     <header>
-        <img src="img/logo.png" id="logo">
-        <img src="img/menu.png" id="menu">
+        <a href="../train/index.html">
+            <img src="img/logo.png" id="logo">
+        </a>
+        <section id="sec-nav">
+            < <nav class="navbar">
+                <a href="../train/priseBillet.html"> Achat de billet</a>
+                <a href="#"> Echange </a>
+                <a href="#">Panier </a>
+            </nav>
+            <section id="login-button">
+                <a href="../train/login.html" target="_blank" class="monBoutton">Login</a>
+            </section>
+        </section>
     </header>
     <section class="main">
         <section class="all-page">
@@ -44,34 +55,28 @@
 
                     <input type="date" list="search_date_dep" class="form__input" id="datedep" placeholder="date départ"
                         required="" />
-                    <datalist id="search_date_dep">
 
-
-                    </datalist>
                     <label>Date arrivée </label>
                     <input type="date" list="search_date_arr" class="form__input" id="datearr" required="" />
-                    <datalist id="search_date_arr">
-
-                    </datalist>
                 </section>
             </form>
             <section class="train-button">
                 <article>
-                        <img src="img/logo-train.png" id="logo-train">
-                        <section class="depart">
-                            <span> Aix-en-provence TGV </span>
-                            <span> 12h30</span>
-                        </section>
-                        <section class="arrivee">
-                            <span> Valence TGV</span>
-                            <span> 13h25</span>
-                        </section>
-                        <section class="price">
-                            <span> 23€</span>
-                            <button class="reserver">
-                                Réserver
-                            </button>
-                        </section>
+                    <img src="img/logo-train.png" id="logo-train">
+                    <section class="depart">
+                        <span> Aix-en-provence TGV </span>
+                        <span> 12h30</span>
+                    </section>
+                    <section class="arrivee">
+                        <span> Valence TGV</span>
+                        <span> 13h25</span>
+                    </section>
+                    <section class="price">
+                        <span> 23€</span>
+                        <button class="reserver">
+                            Réserver
+                        </button>
+                    </section>
                 </article>
 
                 <article>
@@ -159,7 +164,7 @@
         </footer>
     </section>
 
-    
+    <script src="js/ville.js"></script>
 </body>
 
 </html>
