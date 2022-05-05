@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body {
     margin: 0;
     width: 100%;
+    background-color:lightgrey;
 }
 
 header {
@@ -86,12 +90,55 @@ form {
 }
 
 #page {
-    justify-content: center;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
     height: 100%;
+    width: 80%;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 }
+span{
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    font-size:150%;;
+}
+#login-regis{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width:200px
+}
+
+#login-page{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+#register-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.tonBoutton:last-of-type {
+    background-color: #ff3b3b;
+    Color:white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 30px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
 
 /* footer */
 footer {
