@@ -14,7 +14,7 @@
             <img src="img/logo.png" id="logo">
         </a>
         <section id="sec-nav">
-            < <nav class="navbar">
+            <nav class="navbar">
                 <a href="../train/priseBillet.html"> Achat de billet</a>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Echange </a>
                 <a href="../train/panier.html">Panier </a>
@@ -27,38 +27,47 @@
     <section class="main">
         <section class="all-page">
             <section class="allfiltre">
-                <button class="top-button"> filtre </button>
+                <button class="top-button"> Filtre </button>
                 <section class="filtres">
-                    <input type="time" class="top-button">
-                    <input type="number" class="top-button" step="0.01">
-                    <button class="top-button"> filtre </button>
+                    <input type="time" id="time" class="top-button">
+                    <input type="number" class="top-button" step="0.01" placeholder="Prix">
+                    <button class="top-button"> Filtre </button>
                 </section>
             </section>
 
             <form>
-                <section id="ville" class="all-input">
-                    <label>Gare Départ </label>
+                <section id="depart-form" class="all-input">
+
+                    <label>Ville Départ </label>
                     <input type="text" list="search_depart" class="form__input" id="dep" placeholder="Valence"
-                        required="" />
-                    <datalist id="search_depart">
+                        required="" onChange="addStation();" />
 
-                    </datalist>
+                    <label>Gare Départ </label>
+                    <input type="text" list="search_depart_gare" class="form__input" id="dep2" placeholder="Valence TGV"
+                        required="" />
+
+                </section>
+                <section id="arrivee-form" class="all-input">
+                    <label>Ville Arrivé </label>
+                    <input type="text" list="search_arrivee" class="form__input" id="arr" placeholder="Valence"
+                        required="" onChange="addStation();" />
+
                     <label>Gare Arrivée </label>
-                    <input type="text" list="search_arrivee" class="form__input" id="arr" placeholder="Lyon"
+                    <input type="text" list="search_arrivee_gare" class="form__input" id="arr2" placeholder="Lyon Part Dieu"
                         required="" />
-                    <datalist id="search_arrivee">
 
-                    </datalist>
                 </section>
                 <section id="date" class="all-input">
                     <label>Date départ </label>
 
                     <input type="date" list="search_date_dep" class="form__input" id="datedep" placeholder="date départ"
                         required="" />
-
-                    <label>Date arrivée </label>
-                    <input type="date" list="search_date_arr" class="form__input" id="datearr" required="" />
                 </section>
+
+                <datalist name="search_depart" id="search_depart"></datalist>
+                <datalist name="search_arrivee" id="search_arrivee"></datalist>
+                <datalist name="search_depart_gare" id="search_depart_gare"></datalist>
+                <datalist name="search_arrivee_gare" id="search_arrivee_gare"></datalist>
             </form>
             <section class="train-button">
                 <article>
@@ -78,6 +87,10 @@
                         </button>
                     </section>
                 </article>
+                <section class="bottom-ticket">
+                    <span> 2022-05-07 </span>
+                    <span> 0h45 </span>
+                </section>
 
                 <article>
                     <img src="img/logo-train.png" id="logo-train">
@@ -96,6 +109,10 @@
                         </button>
                     </section>
                 </article>
+                <section class="bottom-ticket">
+                    <span> 2022-05-07 </span>
+                    <span> 0h45 </span>
+                </section>
 
                 <article>
                     <img src="img/logo-train.png" id="logo-train">
@@ -114,6 +131,10 @@
                         </button>
                     </section>
                 </article>
+                <section class="bottom-ticket">
+                    <span> 2022-05-07 </span>
+                    <span> 0h45 </span>
+                </section>
 
                 <article>
                     <img src="img/logo-train.png" id="logo-train">
@@ -132,8 +153,13 @@
                         </button>
                     </section>
                 </article>
-
-                <button class="more-button"> Plus de résultats </button>
+                <section class="bottom-ticket">
+                    <span> 2022-05-07 </span>
+                    <span> 0h45 </span>
+                </section>
+                <section id="more-result">
+                    <button id="more-button"> Plus de résultats </button>
+                </section>
             </section>
         </section>
         <footer>
@@ -164,7 +190,8 @@
         </footer>
     </section>
 
-    <script src="js/ville.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/datalist_gare.js"></script>
 </body>
 
 </html>
