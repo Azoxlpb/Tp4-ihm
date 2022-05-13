@@ -3,7 +3,8 @@ body{
     background-image: url(../img/fond-train.jpg);
     width :100%;
     background-size: 110%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    
 }
 
 header{

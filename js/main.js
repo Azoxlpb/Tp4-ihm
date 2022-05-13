@@ -56,14 +56,35 @@ async function getTravels(url) {
 				arrivalhours = arrivalhours + Math.floor(arrivalminutes / 60)
 			}
 
+
 			var button = document.getElementById("#more-result");
 			while (button.firstChild) {
 				button.removeChild(button.firstChild);
 			}
 
-			document.querySelector('#more-result').innerHTML += `
-			
-			`
+			document.querySelector('.train-button').innerHTML += ` 
+			<article>
+			<img src="img/logo-train.png" id="logo-train">
+			<section class="depart">
+				<span> ${schedules[element].travel.from.city} </span>
+				<span> ${schedules[element].departureTime} </span>
+			</section>
+			<section class="arrivee">
+				<span> ${schedules[element].travel.to.city}</span>
+				<span> ${arrivalhours + "h" + arrivalminutes} </span>
+			</section>
+			<section class="price">
+				<span> ${schedules[element].price}€</span>
+				<button class="reserver">
+					Réserver
+				</button>
+			</section>
+		</article>
+		<section class="bottom-ticket">
+			<span> ${schedules[element].date} </span>
+			<span> ${hours + "h" + minutes}</span>
+		</section>
+		`
 		}
 
 	}
