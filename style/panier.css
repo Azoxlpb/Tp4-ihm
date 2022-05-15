@@ -88,8 +88,26 @@ article{
     padding: 20px 50px;
     background-color: #FF2459;
     border-radius: 8px;
+    display: flex;
 }
 
+.billet{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+article section{
+    display: flex;
+    justify-content: space-around   ;
+}
+
+article span{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 /* footer */
 footer{
