@@ -23,7 +23,6 @@ async function addStation(){
     let req = await (await fetch(`https://gigondas.iut-valence.fr:1112/sprietna/ihm/tp4/stations`)).json();
 	document.querySelector(`#search_depart_gare`).innerHTML = '';
     let value =  document.querySelector(`#dep`).value;
-    console.log(value);
     for (let i = 0; i < req.length; i++) {
 		if (req[i].city == value) {
 			document.querySelector(`#search_depart_gare`).innerHTML += `<option value="${req[i].name}"></option>`;
