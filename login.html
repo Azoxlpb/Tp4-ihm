@@ -10,17 +10,17 @@
 
 <body>
     <header>
-        <a href="../train/index.html">
+        <a href="index.html">
             <img src="img/logo.png" id="logo">
         </a>
         <section id="sec-nav">
             <nav class="navbar">
-                <a href="../train/priseBillet.html"> Achat de billet</a>
+                <a href="priseBillet.html"> Achat de billet</a>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Echange </a>
-                <a href="../train/panier.html">Panier </a>
+                <a href="panier.html">Panier </a>
             </nav>
             <section id="login-button">
-                <a href="../train/login.html" target="_blank" class="monBoutton">Login</a>
+                <a href="login.html"  class="monBoutton">Login</a>
             </section>
         </section>
     </header>
@@ -31,9 +31,9 @@
                     <section id="login-page">
                         <span> Login</span>
                         <label for="login">Identifiant :</label>
-                        <input type="text" id="login" name="user_name" placeholder="Jean-Francois-Frederic">
-                        <label for="password">Mots de passe :</label>
-                        <input type="text" id="name" name="pass_word" placeholder="*************">
+                        <input type="text" id="login-id" name="user_name" placeholder="Jean-Francois-Frederic">
+                        <label for="password" id="pass">Mots de passe :</label>
+                        <input type="text" id="login-password" name="pass_word" placeholder="*************">
                     </section>
                     <section id="register-page">
                         <span> Register</span>
@@ -48,8 +48,7 @@
                     </section>
                 </section>
                 <section id="bt">
-                    <a href="../train/index.html" target="_blank" class="tonBoutton">Accede au site sans se
-                        connecte</a>
+                    <a href="#"  class="tonBoutton" onclick="login();"> Valider</a>
                 </section>
             </section>
 
@@ -81,6 +80,7 @@
             </section>
         </section>
     </footer>
+    <script src="js/login.js"></script>
 </body>
 
 </html>
